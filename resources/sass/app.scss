@@ -1,0 +1,97 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+div.control:nth-child(2) > textarea:nth-child(1) {
+ 	height: 228px;
+    width: 954px;
+    float:left;
+ }
+ 
+div.control:nth-child(2){
+ width: 700px;
+}
+
+table th, table td
+{
+	width: 284px; 
+	text-align: center;
+}
+.pastes-container
+{
+	width: 200px;
+	float: right;
+	margin-top: 60px;
+	text-align: center;
+}
+div.field:nth-child(3)
+{
+	height: 250px;
+}
+div.field:nth-child(3) > div:nth-child(2) > textarea:nth-child(1)
+{
+	height: 230px;
+	width: 700px;
+	overflow: scroll;
+}
+.content
+{
+	height: 800px; 
+	float:left; 
+	margin: 15px 15px 15px 15px;
+}
+.content > form:nth-child(1)
+{
+	height: 400px;
+}
+div.field:nth-child(2) > div:nth-child(2) > input:nth-child(1)
+{
+	width: 300px;
+}
+div.control:nth-child(1)
+{
+	padding-top: 10px;
+}
+.card-body
+{
+	height: 300px;overflow-y: scroll;
+}
+.public
+{
+	width: 284px; 
+	text-align: center;
+}
+.py-4 > form:nth-child(1)
+{
+	height: 400px;
+}
+div.field:nth-child(2) > div:nth-child(2)
+{
+	height: 250px;
+}
+div.field:nth-child(2) > div:nth-child(2) > textarea:nth-child(1)
+{
+	width: 400px;
+	height: 25px;
+}
+div.field:nth-child(3) > div:nth-child(2) > textarea:nth-child(1)
+{
+	height: 230px; 
+	width: 700px;
+	overflow: scroll;
+}
+div.field:nth-child(2) > div:nth-child(2)
+{
+	height: 30px;
+}
